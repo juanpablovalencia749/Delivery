@@ -68,3 +68,9 @@ body{
 
 
 }
+
+.main__form__direccion{
+    display: flex;
+    align-items: center;
+    /* i don, understand this world  */
+}
