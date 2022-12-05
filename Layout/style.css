@@ -48,7 +48,10 @@ body{
 }
 
 .main__input{
-    width: 80%;
+    /* background-color: black; */
+    /* margin: 20px; */
+    /* padding: 20px; */
+    width: 70%;
     max-width: 500px;
     outline: none;
     border: none;
@@ -63,14 +66,7 @@ body{
 
 .main__form__direccion{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
+    flex-wrap: wrap;
 }
 
-.main__form__direccion{
-    display: flex;
-    align-items: center;
-    /* i don, understand this world  */
-}
+

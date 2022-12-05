@@ -1,0 +1,123 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    min-height: 600px;
+    padding: 80 px 0;
+    background-image: linear-gradient(to top,#a3bded 0%, #6991c7 100%);
+    background-color: #a3bded;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    /* align-items: center; */
+}
+
+
+.main {
+
+        margin: 2px;
+        width: 50%;
+        background-image:linear-gradient(rgba(255, 255, 255, 0.308),rgba(255, 255, 255, 0.452));
+        overflow: hidden;
+        padding: .7em;
+        border-radius: 1em;
+    /* crea columnas dinamicamente */
+        /* display: inline; */
+        /* grid-auto-rows:max-content;
+        grid-template-columxns:(1fr, 1fr);
+        gap: 0.6em;
+     */
+}
+
+.main__resume {
+    margin: 2px;
+    width: 30%;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.308),rgba(255, 255, 255, 0.452));
+    overflow: hidden;
+    padding: .7em;
+    border-radius: 1em;
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    padding: 3em .7em;
+    justify-content: space-between;
+}
+
+.main__resume__input {
+    width: 24%;
+    height: 10%;
+    max-width: 500px;
+    outline: none;
+    border: none;
+    padding: 1em;
+    border-radius: 0.6em;
+    /* text-align: center; */
+}
+
+
+.main__form { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3em;
+    padding: 3em .6em;
+}
+
+.main__input{
+    /* background-color: black; */
+    /* margin: 20px; */
+    /* padding: 20px; */
+    width: 100%;
+    height: 10%;
+    outline: none;
+    border: none;
+    padding: 1em;
+    border-radius: .6em;
+    text-align: center;
+}
+
+
+
+
+.main__form__intern {
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: row;
+    /* gap: 1.5em; */
+    /* padding: 3em .7em; */
+    justify-content: space-between;  
+}
+
+
+.main__input__valor {
+    width: 100%;
+    /* height: 10%; */
+    outline: none;
+    border: none;
+    padding: 1em;
+    border-radius: .6em;
+    text-align: center;    
+ 
+}
+
+.main__form__intern__valor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3em;
+    margin: 2px;
+}
+
+.main__form__intern__entrega {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3em;
+}
